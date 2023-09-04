@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .subhead{
+        @apply text-xl sm:text-2xl font-semibold text-primary-0
+    }
+}

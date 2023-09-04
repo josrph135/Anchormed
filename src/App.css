@@ -1,0 +1,24 @@
+/* dropDown css start */
+.link{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  cursor: pointer
+}
+.link:focus{
+  background-color: white;
+}
+
+.link:hover > .upArrow{
+  display: none;
+}
+.link:hover > .downArrow{
+  display: block;
+}
+.link:hover > .dropDown{
+  display: block;
+}
+
+/* dropDown css ends */
