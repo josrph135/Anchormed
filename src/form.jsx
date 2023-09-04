@@ -22,12 +22,12 @@ export default function Form(){
     }
     function formsubmit(event){
         event.preventDefault()
-        console.log(formData)
+        action="https://getform.io/f/0e78ef00-9981-49bd-ae32-63dd74b73f15" method="POST"
     }
 
 console.log(formData)
     return(
-        <form onSubmit={formsubmit} action="https://getform.io/f/0e78ef00-9981-49bd-ae32-63dd74b73f15" method="POST" className="flex pt-12 text-onprimary-0 flex-col bg-slate-200 rounded  mx-auto p-4">
+        <form onSubmit={formsubmit}  className="flex pt-12 text-onprimary-0 flex-col bg-slate-200 rounded  mx-auto p-4">
         <div className="flex flex-col md:w-2/3 w-4/5 mx-auto p-4">
             <div className="flex flex-col gap-4 pb-6 text-center">
                 <h2 className="subhead font-bold">
