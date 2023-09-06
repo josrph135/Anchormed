@@ -61,7 +61,7 @@ const Services = () => {
         <div className='flex flex-row flex-wrap gap-8 justify-center'>
             {cardData.map((data,i) => 
                 <div className='flex md:w-80 w-60 h-auto flex-col gap-4 bg-white p-2 rounded-md drop-shadow-lg' key={i}>
-                    <img className='rounded-md h-40 md:w-52 w-full' src={data.image} alt={data.title} />
+                    <img className='rounded-md h-40 w-full' src={data.image} alt={data.title} />
                     <h3 className='subhead text-[16px]'>{data.title}</h3>
                     <p className='text-xs md:text-sm text-onprimary-0'>{data.desc}</p>
                     <a className='flex flex-row gap-2 items-baseline hover:gap-4 duration-300 transition' href="/">
